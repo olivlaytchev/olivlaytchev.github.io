@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html>
+    <head runat="server">
+        <title>OVGames</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../static/content/bootstrap.min.css" />
+        <script src="../static/scripts/jquery-1.10.2.min.js"></script>
+        <script src="../static/scripts/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../static/content/bootstrap-theme.min.css" />
+        <link rel="stylesheet" href="../static/content/newStyle.css" />
+        <link rel="stylesheet" href="../static/content/font-awesome.min.css" />
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-toggle" data-toggle="collapse" data-target="#collapsingStuff">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="navbar-brand" href="/home">OVGames</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="collapsingStuff">
+                    <ul class="nav navbar-nav" style="padding-left:25px">
+                        <li><a href="index.html">About me</a></li>
+                        <li><a href="Games.html">Games</a></li>
+                        <li><a href="otherprojects.html">Other Projects</a></li>
+                        <li><a href="#sec4">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="col-md-12 altbody"><h1>My Games</h1></div>
+        <div class="col-md-12 defbody">
+            <p>
+                <h2>Acid Van</h2><br />This was my first game, created as a first year project.
+                It is a fairly basic side-scroller with two types of enemies (Tanks, Planes) and the player’s goal is shoot
+                them down or attempt to jump onto the tanks, while collecting the “acid” pick-ups, which make the player
+                temporarily immortal and give him +1 life and ammo, while doubling the points received, while the pick-up is active.
+                <!--The speed of the incoming enemies gradually increases as the player racks up points.
+                The game was created using Visual Studio’s XnA, the artwork was created using a graphics tablet and Photoshop CS6.-->
+            </p>
+            <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/yWXzXxfd5vo" frameborder="0" style="position:center"></iframe></div>
+        </div>
+        <div class="col-md-12 altbody">
+            <p>
+                <h2>Lightning Speed!</h2><br />“Lightning Speed” is a university project, which involves an Arduino Uno micro controller.
+                I was responsible for the programming, which was done in the Arduino IDE (Basic C).
+                The code is fairly simple loop, with several conditional statements to determine, whether or not the player will progress.
+                <!--The rules of the game are fairly simple and easy to pick up – the player must use the buttons at the bottom of the device
+                to direct the green light away from the red LEDs (they are “blocked” routes and will result in failure if the player collides with them).-->
+            </p>
+            <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/PIi4B31XDX0" frameborder="0" allowfullscreen></iframe></div>
+        </div>
+        <div class="col-md-12 defbody">
+            <p>
+                <h2>Irrlicht Game Engine</h2><br />
+                For my second year at university as part of an assignment aimed at improving C++ skills,
+                we were tasked with creating a 3D game scene, using the Visual Studio Irrlicht library.
+                The projects aim was to create reusable code which could serve as an engine for future projects.
+                <!--The project had a class structure, which aimed to simplify the model loading process,
+                as well as improve performance (which was one of the other criteria for the project).
+                The scene performed well, even when tested on XP machines with 256mb RAM and reached nearly 40-50 FPS on
+                it’s best performance test. The project itself features a surreal world, with “trippy” art-work and models
+                (sourced from the internet). The layout is a small town, with a dozen buildings, the scene also contains
+                10 animated models and 10 billboards, as part of the assignment requirements. There is also a HUD and a minimap,
+                which tracks the players position, as well as a third-person camera control setup.
+                I have built a Linux, XP and Windows 7 version of the scene.-->
+
+                <img class="img-responsive" src="../static/images/3rdperson.png" />
+            </p>
+        </div>
+        <div class="col-md-12 altbody">
+            <p>
+                <h2>VECTOR.rotate</h2><br />
+                VECTOR.rotate was our entry to the Global Game Jam 2015. The game was made using Unity.
+                I was joined by Daniel Stroud, Ashley Bass and Ben Weatherill (music) as we created a music based game.
+                The essence of the game is quite simple as a randomly generated object must be fitted to it’s outlines through rotation
+                (mouse movement for PC, touch controls for mobile devices).
+                <!--The visually stimulating aspects of the game are all
+                tied in with the music as is the amount of time a player has to complete the current shape.
+                As the player progresses further into the game, the shapes become more complex and so does the music.
+                The game was created in just 48 hours and provides it’s audience with a relaxing sound and visual appealing experience.
+                Since the game was first created it has been refined by Dan Stroud and published to the Google Play Store.-->
+            </p>
+            <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/VgxPCK_q2S8" frameborder="0" style="position:center"></iframe></div>
+        </div>
+        <div class="col-md-12 defbody">
+            <p>
+                <h2>Cubic</h2><br />Cubic is my second original Android game. It is a fairly simple arcade-like game,
+                which tests player’s reaction speed. Players can either swipe or tap the green cubes in order to progress.
+                Red cubes must be avoided. The player has 3 seconds for each level and if he fails to complete it within the
+                allotted time, he is penalized by having less time the next round and an extra red cube.
+                Hitting a red cube causes the same penalty.
+                <!--After 3 mistakes the player looses the game.
+                Points are accumulated and can be spent on upgrades, which increases the likelihood of their appearance.
+                There are 3 possible upgrades – time slow, which will slow the movement speed of the cubes, to ease the player;
+                double points – which doubles the points in the current round and invincibility, which makes the player immune to
+                red cubes, but only lasts the round.-->
+            </p>
+            <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/bQpZ2KyzqVY" frameborder="0" allowfullscreen></iframe></div>
+        </div>
+        <div class="col-md-12 altbody">
+            <p>
+                <h2>A Tall Tale: Grom Edition</h2><br />
+                This game was made as a team project for the 2015 Imagine Cup. It is a quest-based puzzle game,
+                which requires players to find solutions to the quests using a special head-switching mechanic, which is similar to a point-click style game.
+                The members of the team were myself, Taylor Sutton, Chloe Broadbent and Brandon McGarth.
+                I was the project leader for this assignment. My technical contribution to this project was the mechanic used to scan the surroundings
+                and find the alternative solutions to quests, which was tied to the story of the two-headed ogre. I also wrote the code for the movement,
+                camera movement and camera switching. I also implemented most of the quests. Quest solutions either benefit the human faction or the animal faction
+                and it is up the player to decide whether to balance their actions or to choose one of the factions. The game has potential to be further developed,
+                because of the ease with which new quests can be implemented.
+            </p>
+                <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/uS5N-fuaF3I" frameborder="0" allowfullscreen></iframe></div>
+        </div>
+    <footer>
+            <hr />
+            <div class="col-md-12" style="margin-top:5%" id="sec4">
+                <p><h2>Contact me:</h2></p>
+                <a class="btn btn-social btn-facebook" href="https://www.facebook.com/othervisiongames">
+                    <span class="fa fa-facebook-square fa-3x"></span>
+                </a>
+                <a class="btn btn-social" href="https://uk.linkedin.com/in/olivlaytchev">
+                    <span class="fa fa-linkedin-square fa-3x"></span>
+                </a>
+                <a class="btn btn-social btn-twitter" href="https://twitter.com/olivlaytchev">
+                    <span class="fa fa-twitter-square fa-3x"></span>
+                </a>
+                <a class="btn btn-social" href="https://plus.google.com/u/0/101222767729786226337">
+                    <span class="fa fa-google-plus-square fa-3x"></span>
+                </a>
+                <a class="btn btn-social" href="https://play.google.com/store/apps/developer?id=olivlaytchev">
+                    <span class="fa fa-android fa-3x"></span>
+                </a>
+            </div>
+        <p class="tab">&copy; 2017 - Oliver Vlaytchev</p>
+    </footer>
+</body>
+</html>

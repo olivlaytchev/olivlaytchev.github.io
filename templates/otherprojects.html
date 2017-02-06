@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>OVGames</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../static/content/bootstrap.min.css" />
+        <script src="../static/scripts/jquery-1.10.2.min.js"></script>
+        <script src="../static/scripts/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../static/content/bootstrap-theme.min.css" />
+        <link rel="stylesheet" href="../static/content/newStyle.css" />
+        <link rel="stylesheet" href="../static/content/font-awesome.min.css" />
+</head>
+<body>
+
+    <header class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-toggle" data-toggle="collapse" data-target="#collapsingStuff">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="navbar-brand" href="/home">OVGames</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="collapsingStuff">
+                <ul class="nav navbar-nav" style="padding-left:25px">
+                    <li><a href="index.html">About me</a></li>
+                    <li><a href="Games.html">Games</a></li>
+                    <li><a href="otherprojects.html">Other Projects</a></li>
+                    <li><a href="#sec4">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+        <div class="col-md-12 altbody"><h1>Other Projects</h1></div>
+        <div class="col-md-12 defbody">
+            <p>
+                <h2>Money Matters</h2><br />MoneyMatters was an app I built together with Daniel Dainty and Mohammed Nuur at HackNotts 2015. 
+                The app gets data on charities through the Just-Giving API along with the users account balance (using the Capital-One API). 
+                It then stores the data in a json file, which is passed to the users dashboard and the pebble app and displayed in an accessible and simple format on the 
+                pebble wristwatch. We prototyped the data retrieval system using python and then converted the methods to php, so that we could host it and make requests with the pebble. 
+                I was mainly in charge of making the pebble app, which was built using javascript. Our web-page and dashboard were made using bootstrap. The app recieved the prize
+                for the best use of the Just-Giving API.
+            </p>
+            <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/SClvULnNNW0" frameborder="0" style="position:center"></iframe></div>
+        </div>
+        <div class="col-md-12 altbody">
+            <p>
+                <h2>PyArt</h2><br />PyArt is an art-generating program, which I wrote in python. The app uses python turtles and tkinter to create 
+                personalized art for each user. The user has to enter an email address or twitter handle, which serves as a seed for the randomly generated art. The program produces 2 versions
+                of the art piece - the first one being the original, while the second image is the first with all colour bits sorted by value. These images are then
+                sent to the user via email or tweeted to them. 
+            </p>
+            <img width="49%" src="../static/images/273.png" /><img width="49%" style="margin:1%" src="../static/images/274.png" />
+        </div>
+        <div class="col-md-12 defbody">
+            <p>
+                <h2>BCUHack</h2><br />As part of my placement I organized BCUHack - Birmingham City University's first 24 hour hackathon. The event took place on the 29th February and saw 60 students from 
+                a variety of courses come together and work overnight in order to create some amazing projects. We had both local and international sponsors for the event: Majestic, Clevercherry, Urban Hax CIC,
+                Codio, HackerEarth, Deliveroo and the Boston Tea Party. 
+            </p>
+            <img width="49%" src="../static/images/meandsponsors.jpg" /><img width="49%" style="margin:1%" src="../static/images/bcuhack.jpg" />
+        </div>
+    <footer>
+            <hr />
+            <div class="col-md-12" style="margin-top:5%" id="sec4">
+                <p><h2>Contact me:</h2></p>
+                <a class="btn btn-social btn-facebook" href="https://www.facebook.com/othervisiongames">
+                    <span class="fa fa-facebook-square fa-3x"></span>
+                </a>
+                <a class="btn btn-social" href="https://uk.linkedin.com/in/olivlaytchev">
+                    <span class="fa fa-linkedin-square fa-3x"></span>
+                </a>
+                <a class="btn btn-social btn-twitter" href="https://twitter.com/olivlaytchev">
+                    <span class="fa fa-twitter-square fa-3x"></span>
+                </a>
+                <a class="btn btn-social" href="https://plus.google.com/u/0/101222767729786226337">
+                    <span class="fa fa-google-plus-square fa-3x"></span>
+                </a>
+                <a class="btn btn-social" href="https://play.google.com/store/apps/developer?id=olivlaytchev">
+                    <span class="fa fa-android fa-3x"></span>
+                </a>
+            </div>
+        <p class="tab">&copy; 2017 - Oliver Vlaytchev</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <script src="{{url_for('static', filename='scripts/ocrad.js')}}"></script>
+    <script src="{{url_for('static', filename='scripts/jquery-1.10.2.min.js')}}"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(document).ready(function () {
+            var $img = $('#image');
+
+            var context = document.createElement('canvas').getContext('2d');
+            context.drawImage($img[0], 0, 0);
+
+            var imageData = context.getImageData(0, 0, $img.width(), $img.height());
+
+            var string = OCRAD(imageData);
+            alert(string);
+        });
+    </script>
+</head>
+<body>
+    <img src="../static/images/azure.PNG" id="image">
+</body>
+</html>
