@@ -12,7 +12,7 @@
     position:relative;
 }
 body{
-    background-color:#1C5396;
+    background-color:#5392df; /*#1C5396;*/
     font-family:Consolas;
     padding-top:100px;
     color:white;
@@ -54,7 +54,7 @@ span{
     vertical-align:central;
 }
 .defbody{
-    background-color:#2D1443;
+    background-color:#2D1443; /*#a976d5;*/
     padding-top:5%;
     padding-left:25%;
     padding-right:25%;
