@@ -47,18 +47,18 @@ span{
     background-color:white;
 }
 .altbody{
-    padding-top:5%;
+    padding-top:2.5%;
     padding-left:25%;
     padding-right:25%;
-    padding-bottom:5%;
+    padding-bottom:2.5%;
     vertical-align:central;
 }
 .defbody{
     background-color:#2D1443; /*#a976d5;*/
-    padding-top:5%;
+    padding-top:2.5%;
     padding-left:25%;
     padding-right:25%;
-    padding-bottom:5%;
+    padding-bottom:2.5%;
     vertical-align:central;
 }
 .videoWrapper {
